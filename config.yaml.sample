@@ -1,0 +1,9 @@
+mqtt_host:      iot.eclipse.org
+mqtt_port:      1883
+mqtt_client_id: mqtt-mirror-speed
+mqtt_use_auth:  false
+mqtt_username:  username
+mqtt_password:  password
+publish_topic: topic/mirror/statics
+watch_interface: eth0
+watch_interval: 10
